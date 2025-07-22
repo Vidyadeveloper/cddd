@@ -22,7 +22,15 @@ class JobApplicationCase extends BlazeCase {
   {
     "id": "perocess",
     "label": "Perocess",
-    "steps": []
+    "steps": [
+      {
+        "id": "interview",
+        "label": "Interview",
+        "status": "pending",
+        "view": "job-application-perocess-interview",
+        "type": "manual"
+      }
+    ]
   }
 ]
     );
