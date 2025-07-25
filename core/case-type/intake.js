@@ -22,20 +22,6 @@ module.exports = {
           "status": "pending_validation",
           "view": "intake-registration-relations",
           "type": "manual"
-        },
-        {
-          "id": "document-collection",
-          "label": "Document Collection",
-          "status": "completed",
-          "view": "intake-process-registration-document-collection",
-          "type": "manual"
-        },
-        {
-          "id": "interview",
-          "label": "Interview",
-          "status": "pending",
-          "view": "intake-process-registration-interview",
-          "type": "manual"
         }
       ]
     },
@@ -50,17 +36,10 @@ module.exports = {
           "type": "manual"
         },
         {
-          "id": "collect-document-for-interview",
-          "label": "Collect Document For interview",
+          "id": "interview",
+          "label": "Interview",
           "status": "pending",
-          "view": "intake-process-review-collect-document-for-interview",
-          "type": "manual"
-        },
-        {
-          "id": "submit-document",
-          "label": "Submit Document",
-          "status": "pending",
-          "view": "intake-process-review-submit-document",
+          "view": "intake-process-review-interview",
           "type": "manual"
         }
       ]
@@ -73,6 +52,13 @@ module.exports = {
           "id": "close_case",
           "label": "Close Case",
           "status": "completed",
+          "type": "manual"
+        },
+        {
+          "id": "document-collection",
+          "label": "Document Collection",
+          "status": "completed",
+          "view": "intake-process-completion-document-collection",
           "type": "manual"
         }
       ]
